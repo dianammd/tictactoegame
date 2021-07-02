@@ -1,0 +1,95 @@
+body {
+  background-color: #dcd6f7;
+}
+
+/* title */
+h1 {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px 0;
+  color: #424874;
+}
+/* players options title */
+h3 {
+  font-family: 'Press Start 2P', cursive;
+  color: #424874;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+.game-board {
+  display: flex;
+  width: 450px;
+  margin: auto;
+  z-index: -1;
+}
+
+.box {
+ height: 150px;
+ width: 150px;
+}
+
+.box-light {
+  background-color: #a6b1e1;
+  border: 2px solid #424874;
+}
+
+.box-dark {
+  background-color: #393e46;
+  border: 2px solid #a6b1e1;
+}
+
+.mode-btn {
+  margin: 10px 0 0 10px;
+  position: absolute;
+}
+
+.reload-btn {
+  margin: 10px 0 0 60px;
+  font-family: 'DotGothic16', sans-serif;
+  position: absolute;
+}
+
+.box-content {
+  text-align: center;
+  padding-top: 5px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 100px;
+}
+
+.game-over {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: -200px;
+  transform: translate(-50%, 0);
+  font-family: 'Press Start 2P', cursive;
+  font-size: 80px;
+  text-align: center;
+  color: #6b011f;
+}
+
+.hidden {
+  display: none;
+}
+
+.transparent {
+  opacity: 0.3;
+}
+.player {
+  display: flex;
+  position: absolute;
+  font-family: 'DotGothic16', sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.player-1 {
+  padding: 20px 20px 20px 0;
+}
+
+.player-2 {
+  padding: 20px;
+}
